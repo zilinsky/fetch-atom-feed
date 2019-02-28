@@ -1,0 +1,16 @@
+div.container {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.container .textField {
+    width: 300px;
+    margin-top: auto;
+    margin-bottom: auto;
+
+    
+}
+
+.container .textField label {
+    color: var(--category--color);
+}

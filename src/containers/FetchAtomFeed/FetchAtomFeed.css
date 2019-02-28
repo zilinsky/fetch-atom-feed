@@ -1,0 +1,5 @@
+div.header {
+    display: flex;
+    height: 89px;
+    justify-content: center;
+}

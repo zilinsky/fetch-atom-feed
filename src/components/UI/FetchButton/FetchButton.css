@@ -1,0 +1,12 @@
+div.ButtonDiv {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+}
+
+Button.FetchButton {
+    height: 30px;
+    width: 105px;
+    height: 50px;
+    font-weight: 600;
+}

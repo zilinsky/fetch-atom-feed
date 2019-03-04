@@ -5,7 +5,6 @@
   "dependencies": {
     "@material-ui/core": "^3.9.2",
     "@material-ui/icons": "^3.0.2",
-    "axios": "^0.18.0",
     "feedme": "^1.2.0",
     "moment": "^2.24.0",
     "react": "^16.8.3",
@@ -14,10 +13,7 @@
     "react-scripts": "2.1.5",
     "redux": "^4.0.1",
     "redux-thunk": "^2.3.0",
-    "rss-finder": "^2.1.0",
-    "rss-parser": "^3.6.3",
-    "uniqid": "^5.0.3",
-    "xml2js": "^0.4.19"
+    "uniqid": "^5.0.3"
   },
   "scripts": {
     "start": "react-scripts start",

@@ -5,6 +5,11 @@ We're assessing the js/react skills, css/html knowledge, cleanliness of the code
 The project can be done in a few hours, we don't want to take too much of your time.
 Example feed you can play with: your github activity feed. https://github.com/<username>.atom
 
-I used in this project redux, FeedMe (feedme.js is an RSS/Atom/JSON feed parser), Material-UI, css-modules. 
+I used in this project redux, FeedMe (feedme.js is an RSS/Atom/JSON feed parser), Material-UI, css-modules.
+
+How to use the downloaded files:
+
+1) Run "npm install" in the extracted folder
+2) Run "npm start" to view the project
 
 【ツ】

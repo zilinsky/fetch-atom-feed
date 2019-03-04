@@ -1,9 +1,9 @@
-div.container {
+div.Container {
     margin-top: auto;
     margin-bottom: auto;
 }
 
-.container .textField {
+.Container .TextField {
     width: 300px;
     margin-top: auto;
     margin-bottom: auto;
@@ -11,6 +11,12 @@ div.container {
     
 }
 
-.container .textField label {
+.Container .TextField label {
     color: var(--category--color);
+}
+
+@media (max-width: 414px) {
+    div.Container {
+        margin-top: 10px;
+    }
 }

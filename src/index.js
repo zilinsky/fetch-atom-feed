@@ -23,7 +23,7 @@ const app = (
 
 ReactDOM.render( app, document.getElementById( 'root' ) );
 
-//needed for Migration to typography v2 - material -ui 2019 jan
+//needed for Migration to typography v2 - material-ui
 window.__MUI_USE_NEXT_TYPOGRAPHY_VARIANTS__ = true;
 
 

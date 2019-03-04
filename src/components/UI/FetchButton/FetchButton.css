@@ -10,3 +10,10 @@ Button.FetchButton {
     height: 50px;
     font-weight: 600;
 }
+
+@media (max-width: 414px) {
+    Button.FetchButton {
+        height: 35px;
+        margin-top: 10px;
+    }
+}

@@ -3,23 +3,13 @@ import * as actionTypes from './actionTypes';
 const initialState = { 
     inputURLvar: '',
     articles: [],
-    articleTitle: '',
     error: false ,
-    loading: false
+    loading: false,
+    fetched: false
 };
 
 const reducer = ( state = initialState, action ) => {
     switch ( action.type ) {
-        case actionTypes.SET_ARTICLES:
-        return {
-            ...state,
-            articles: action.articles
-        };
-        case actionTypes.SET_ARTICLE_TITLE:
-        return {
-            ...state,
-            articleTitle: action.articleTitle
-        };
         case actionTypes.SET_INPUT_URL:
         return {
             ...state,
@@ -31,16 +21,19 @@ const reducer = ( state = initialState, action ) => {
         };
         case actionTypes.FETCH_ARTICLES_SUCCESS:
         return {
-            loading: false
+            ...state,
+            articles: action.articles,
+            fetched: true,
+            loading: false,
+            error: false
         };
         case actionTypes.FETCH_ARTICLES_FAILED:
         return {
             error: true,
             loading: false
         };
-        default: //do nothing
+        default: return state;
     }
-    return state;
 }
 
 export default reducer;
